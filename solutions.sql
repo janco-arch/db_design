@@ -219,13 +219,13 @@ INSERT INTO BookAuthor (BookID, AuthorID) VALUES
 
 
 --creating roles 
-CREATE ROLE ADMIN;
+CREATE ROLE ADMINISTRATOR;
 CREATE ROLE USER;
 CREATE ROLE GUEST;
 
 
 --assigning privileges to roles
-GRANT ALL PRIVILEGES ON bookstoreDB.* TO ADMIN;
+GRANT ALL PRIVILEGES ON bookstoreDB.* TO ADMINISTRATOR;
 GRANT SELECT, INSERT, UPDATE ON bookstoreDB.* TO USER;
 GRANT SELECT ON bookstoreDB.* TO GUEST;
 
@@ -236,7 +236,7 @@ CREATE USER "DATA CLERK" @ "localhost" IDENTIFIED BY "d_clerk_#$password";
 CREATE USER "GUEST_USER" @ "localhost" IDENTIFIED BY "guest@#password";
 
 --assigning roles to users
-GRANT ADMIN TO "ADMIN" @ "localhost";
+GRANT ADMINISTRATOR TO "ADMIN" @ "localhost";
 GRANT USER TO "DATA CLERK" @ "localhost";
 GRANT GUEST TO "GUEST_USER" @ "localhost";
 

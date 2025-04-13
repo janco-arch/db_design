@@ -49,8 +49,8 @@ The goal of the system is to:
 
 We would like to acknowledge the following individuals for their contributions to this project:
 
-- [Zebidah Wanjiku](https://github.com/ZebidahM) 
-- [Sheilla Mungai](https://github.com/sheemungai)
-- [John Mwaura](https://github.com/janco-arch) 
+- [ZebidahM](https://github.com/ZebidahM) 
+- [Sheemungai](https://github.com/sheemungai)
+- [janco-arch](https://github.com/janco-arch) 
 
 If you'd like to contribute to this project, feel free to create a pull request or reach out to us!

@@ -229,14 +229,14 @@ GRANT SELECT ON bookstoreDB.* TO GUEST;
 
 
 --creating users
-CREATE USER "ADMIN" @ "localhost" IDENTIFIED BY "admin";
-CREATE USER "DATA CLERK" @ "localhost" IDENTIFIED BY "data_clerk_password";
-CREATE USER "GUEST_USER" @ "localhost" IDENTIFIED BY "guest_password";
+CREATE USER "ADMIN" @ "localhost" IDENTIFIED BY "admin@123";
+CREATE USER "DATA CLERK" @ "localhost" IDENTIFIED BY "d_clerk_#$password";
+CREATE USER "GUEST_USER" @ "localhost" IDENTIFIED BY "guest@#password";
 
 --assigning roles to users
 GRANT ADMIN TO "ADMIN" @ "localhost";
 GRANT USER TO "DATA CLERK" @ "localhost";
-GRANT GUEST_USER TO "GUEST_USER" @ "localhost";
+GRANT GUEST TO "GUEST_USER" @ "localhost";
 
 
 

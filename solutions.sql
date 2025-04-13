@@ -216,4 +216,27 @@ INSERT INTO BookAuthor (BookID, AuthorID) VALUES
 (3, 3);  -- Things Fall Apart by Chinua Achebe
 
 
+--creating roles 
+CREATE ROLE ADMIN;
+CREATE ROLE USER;
+CREATE ROLE GUEST;
+
+
+--assigning privileges to roles
+GRANT ALL PRIVILEGES ON bookstoreDB.* TO ADMIN;
+GRANT SELECT, INSERT, UPDATE ON bookstoreDB.* TO USER;
+GRANT SELECT ON bookstoreDB.* TO GUEST;
+
+
+--creating users
+CREATE USER "ADMIN" @ "localhost" IDENTIFIED BY "admin";
+CREATE USER "DATA CLERK" @ "localhost" IDENTIFIED BY "data_clerk_password";
+CREATE USER "GUEST_USER" @ "localhost" IDENTIFIED BY "guest_password";
+
+--assigning roles to users
+GRANT ADMIN TO "ADMIN" @ "localhost";
+GRANT USER TO "DATA CLERK" @ "localhost";
+GRANT GUEST_USER TO "GUEST_USER" @ "localhost";
+
+
 

@@ -124,7 +124,6 @@ VALUES
 (4, '2025-02-08',3, 1);
  
 
---SOLUTION
 -- Create Author table
 -- The Author table stores information about individual authors. 
 -- Each author has a unique ID, along with their first and last name. 
@@ -212,6 +211,7 @@ INSERT INTO book (title, PublisherID, LanguageID, price) VALUES
 
 -- Link each book to its corresponding author.
 -- This populates the many-to-many relationship between books and authors.
+ 
 INSERT INTO BookAuthor (BookID, AuthorID) VALUES
 (1, 1),  -- 1984 by George Orwell
 (2, 2),  -- Harry Potter by J.K. Rowling

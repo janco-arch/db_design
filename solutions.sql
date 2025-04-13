@@ -1,3 +1,4 @@
+
 --SOLUTION
 -- Create Author table
 -- The Author table stores information about individual authors. 
@@ -90,5 +91,6 @@ INSERT INTO BookAuthor (BookID, AuthorID) VALUES
 (1, 1),  -- 1984 by George Orwell
 (2, 2),  -- Harry Potter by J.K. Rowling
 (3, 3);  -- Things Fall Apart by Chinua Achebe
+
 
 

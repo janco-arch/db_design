@@ -1,4 +1,4 @@
-# Bookstore Database Management System
+# Bookstore Database 
 
 ## Overview
 The **Bookstore Database** is a relational database management system that organizes and manages information for a bookstore. This project demonstrates the structured implementation of various tables, data relationships, and operations required to handle a real-world bookstore's transactions, customers, and inventory.

@@ -8,7 +8,7 @@ The goal of the system is to:
 - Ensure data consistency through robust relationships and foreign key constraints.
 - Enable scalability for future requirements.
 
----
+
 
 ## Database Features
 
@@ -18,7 +18,7 @@ The goal of the system is to:
 - Track order history and shipping methods.
 - Enforce data integrity using primary and foreign key constraints.
 
----
+
 
 ## Database Schema
 
